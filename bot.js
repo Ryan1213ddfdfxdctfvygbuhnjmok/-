@@ -11,7 +11,7 @@ client.on('ready', () => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **مساء النور
-https://discord.gg/ajnR2qb
+https://discord.gg/uX7SmsB
 **`)
 }).catch(console.error)
 
@@ -21,7 +21,7 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 ** مساءالنور
-https://discord.gg/ajnR2qb
+https://discord.gg/uX7SmsB
 **`) 
 }).catch(console.error)
 })
@@ -29,27 +29,27 @@ https://discord.gg/ajnR2qb
 
 client.on('message', message => {
 if (message.content === 'رابط') {
-message.author.send(' سلام عليكم https://discord.gg/ajnR2qb')
+message.author.send(' سلام عليكم https://discord.gg/uX7SmsB')
 }
 });
 
 
 client.on('message', message => {
 if (message.content === '.') {
-message.author.send(' سلام عليكم https://discord.gg/ajnR2qb')
+message.author.send(' سلام عليكم https://discord.gg/uX7SmsB')
 }
 });
 
 client.on('message', message => {
 if (message.content === 'سلام عليكم') {
-message.author.send(' سلام عليكم https://discord.gg/ajnR2qb')
+message.author.send(' سلام عليكم https://discord.gg/uX7SmsB')
 }
 });
 
 client.on('guildCreate', g => {
 g.members.forEach(m => {
 if (m.voiceChannel) {
-m.send(' سلام عليكم https://discord.gg/ajnR2qb ')
+m.send(' سلام عليكم https://discord.gg/uX7SmsB ')
 }
 })
 });
